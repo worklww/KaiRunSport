@@ -9,7 +9,6 @@ import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
-
 import cn.kairun.kairunsport.R;
 
 public class SportCustomView extends View {
