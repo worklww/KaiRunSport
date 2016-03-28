@@ -1,0 +1,21 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.kairun.kairunuser.fragment.SleepFragment">
+
+<cn.kairun.kairunsport.myview.SleepCustomView
+    android:id="@+id/cks_myview"
+    android:layout_centerInParent="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:speed="20"
+    app:firstColor="@color/colorViolet"
+    app:secondColor="@color/colordefaultircular"
+    app:circleWidth="11dp"
+    />
+
+</RelativeLayout>
